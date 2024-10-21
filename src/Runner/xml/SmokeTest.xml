@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Smoke Suite">
+    <test name="Smoke Tests">
+        <packages>
+            <package name="StepsDefinitions"></package>
+        </packages>
+        <groups>
+            <run>
+                <include name="Smoke Test"></include>
+            </run>
+        </groups>
+
+    </test>
+
+</suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="My Suite" parallel="methods" thread-count="2">
+
+    <test name="Parallel Test chrome">
+        <parameter name="browserType" value="chrome"></parameter>
+
+        <classes>
+            <class name="StepsDefinitions.Booking"/>
+            <class name="StepsDefinitions.CourseDetails"/>
+            <class name="StepsDefinitions.CrossCampus"/>
+            <class name="StepsDefinitions.DropdownMenu"/>
+            <class name="StepsDefinitions.LogoToHomepage"/>
+            <class name="StepsDefinitions.SubmenuSocialMedia"/>
+            <class name="StepsDefinitions.TermsOfUse"/>
+        </classes>
+    </test>
+
+    <test name="Parallel Test edge">
+        <parameter name="browserType" value="edge"></parameter>
+
+        <classes>
+            <class name="StepsDefinitions.Booking"/>
+            <class name="StepsDefinitions.CourseDetails"/>
+            <class name="StepsDefinitions.CrossCampus"/>
+            <class name="StepsDefinitions.DropdownMenu"/>
+            <class name="StepsDefinitions.LogoToHomepage"/>
+            <class name="StepsDefinitions.SubmenuSocialMedia"/>
+            <class name="StepsDefinitions.TermsOfUse"/>
+        </classes>
+    </test>
+
+</suite>

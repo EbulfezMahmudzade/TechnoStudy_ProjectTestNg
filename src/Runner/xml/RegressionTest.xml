@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression Suite">
+    <test name="Regression Tests">
+        <packages>
+            <package name="StepsDefinitions"></package>
+        </packages>
+        <groups>
+            <run>
+                <include name="Regression Test"></include>
+            </run>
+        </groups>
+    </test>
+</suite>
